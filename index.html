@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+     <!-- main css file -->
+     <link rel="stylesheet" href="css/index.css"
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form>
+        <table>
+            <tr>
+                <td>
+                    <label for="fname">First name</label>
+                </td>
+                <td>
+                    <input type="text" id="fname"name="fname" placeholder="First Name" required
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="lname">Last name</label>
+                </td>
+                <td> 
+                    <input type="text" id="lname"name="lname" placeholder="Last Name" required
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="faname">Father's Name</label>
+                </td>
+                <td>
+                    <input type="text" id="faname"name="faname" placeholder="Father's Name" required
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="maname">Mather's Name</label> 
+                </td>
+                <td> 
+                    <input type="text" id="maname"name="maname" placeholder="Mather's Name" required
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="sname">Spouse Name</label> 
+                </td>
+                <td> 
+                    <input type="text" id="sname"name="sname" placeholder="Spouse Name"
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="phn">Phone Number</label>
+                </td>
+                <td>
+                    <select id="phn" name="code">
+                        <option value="+880">+990</option>
+                        <option value="+880">+880</option>
+                        <option value="+880">+770</option>
+                        <option value="+880">+660</option>
+                        <option value="+880">+550</option>
+                    </select>
+                    <input type="number" id="phn" name="code" placeholder="0123456789" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">E-mail:</label> 
+                </td>
+                <td>
+                    <input type="email" id="email" name="email" placeholder="example1@*8*" required>
+                </td>
+            </tr>
+            <tr> 
+                <td>
+                    <label for="cemail">Confirm E-mail:</label> 
+                </td>
+                <td>
+                    <input type="cemail" id="cemail" name="cemail" placeholder="example1@*8*" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pass"> Password</label>
+                </td>
+                <td>
+                    <input type="password" id="pass" name="password" placeholder="password" required> 
+                </td>
+                <tr>
+                    <td>
+                       <label for="cpass">Confirm Password</label>
+                    </td>
+                    <td>
+                        <input type="cpassword" id="cpass" name="cpassword" placeholder="cpassword" required>
+                    </td>
+                </tr>
+            </tr>
+            <tr>
+                <td>
+                    <label for="gender">Gender</label>
+                </td>
+                <td>
+                    <input type="radio" id="gender" name="gender">Male
+                    <input type="radio" id="gender" name="gender">Female
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="marridstatus">Marital status:</label>
+                </td>
+                <td>
+                    <input type="radio" id="marridstatus" name="marridstatus">Single
+                    <input type="radio" id="marridstatus" name="marridstatus">Married
+                    <input type="radio" id="marridstatus" name="marridstatus">Divorced
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="religion">Religion:</label>
+                </td>
+                <td>
+                    <input type="checkbox" id="religion" name="religion" value="Islam"/>
+                    <label for="religion">Islam</label>
+                    <input type="checkbox" id="religion" name="religion" value="Hinduism"/>
+                    <label for="religion">Hinduism</label>
+                    <input type="checkbox" id="religion" name="religion" value="Buddhism"/>
+                    <label for="religion">Buddhism</label>
+                    <input type="checkbox" id="religion" name="religion" value="Christianity"/>
+                    <label for="religion">Christianity</label>
+                    <input type="checkbox" id="religion" name="religion" value="Others"/>
+                    <label for="religion">Others</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="date">Date of Birth:</label>
+                </td>
+                <td>
+                    <input type="date" id="date" name="date">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="checkbox">Hobbies:</label>
+                </td>
+                <td>
+                    <input type="checkbox" id="checkbox" name="singing">singing
+                    <input type="checkbox" id="checkbox" name="Dancing">dancing
+                    <input type="checkbox" id="checkbox" name="playing">playing
+                    <input type="checkbox" id="checkbox" name="reading">reading
+                </td>
+            </tr>
+            <tr>
+                <td>
+                   Education Qualification:
+                </td>
+                <td>
+                    <select>
+                        <option> select option</option>
+                        <option>SSC</option>
+                        <option>HSC</option>
+                        <option>Graduation</option>
+                        <option>Postgrduation</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pic">Upload Picture</label>
+                    <input type="file" id="pic" name="pic" placeholder="Upload Profile Picture"
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="address">Address</label>
+                </td>
+                <td>
+                    <textarea rows="5" cols="15" placeholder="Address"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                   <input type="checkbox" id="Terms" name="Terms" value="Terms"><b><i>I agree to the Terms & Conditions</i></b><br/><br/>
+                   <input type="submit" id="submit" name="submit" value="Sing Up">
+                   <input type="reset" id="reset" name="reset" value="Clear">
+                   <p>Have an account already? <a href="html/login-form.html" target="_blank">Login&nbsp;&nbsp;</a>&nbsp;&nbsp;or&nbsp;&nbsp;<a href="html/resat.html" target="_blank">&nbsp;&nbsp;Forget Password?</a></p>
+                </td>
+            </tr>
+        </table>   
+            
+    </form>
+</body>
+</html>
